@@ -6,3 +6,12 @@ body{
     padding: 2rem;
     font-family: var(--color-primary)
 }
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-secondary);
+    z-index: 1;
+}
+
