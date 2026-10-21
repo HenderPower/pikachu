@@ -15,3 +15,28 @@ header{
     z-index: 1;
 }
 
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-size: 22vw;
+    text-align: center;
+    color: white;
+    transform: translateY(20%);
+}
+
+h1::before{
+    content: 'Pikachu';
+    color: #FFF5;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    font-size: 27vw;
+}
+
